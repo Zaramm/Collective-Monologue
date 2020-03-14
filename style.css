@@ -1,0 +1,33 @@
+
+#active{color:#BB2929}
+body{ margin:20px;
+      background-color: #FFEDED
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size:50px;
+  text-align: center;
+  border-bottom:3px solid black;
+  margin:0; padding: 15px
+}
+ol {
+  border-right:2px solid black;
+  width:150px;
+  margin-top:0
+  padding:10px;}
+
+#grid{display: grid;
+  grid-template-columns:200px 1fr;
+}
+#grid ol{padding-left: 20px}
+
+#grid #article{padding-left: 0px}
+@media(max-width:900px)
+  {
+  #grid{display: block;}
+  ol {border-right:none}
+  }
+#font1{font-family: 'Black Han Sans', sans-serif;}

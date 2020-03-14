@@ -2,7 +2,9 @@
 <head>
   <title>코딩연습 - Wlcome</title>
   <meta charset="utf-8">
-  <style>
+  <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean" rel="stylesheet">
+
+  <!--<style>
     #active{color:#BB2929}
     body{ margin:20px}
     a {
@@ -26,12 +28,17 @@
     }
     #grid ol{padding-left: 20px}
 
-    #grid #article{padding-left: 30px}
-  </style>
+    #grid #article{padding-left: 0px}
+    @media(max-width:900px)
+      {
+      #grid{display: block;}
+      ol {border-right:none}
+      }
+  </style>-->
 
 </head>
 <body>
-  <h1><a href="index.html" style="color:#CD3B3B;">여기는 첫페이지다.</a></h1>
+  <h1><a href="index.html" style="color:#CD3B3B;" id="font1">여기는 첫페이지다.</a></h1>
 
 <div id="grid">
   <ol>
@@ -47,26 +54,5 @@
       <strong><a href="http://iz-one.co.kr/" target="_balnk" style="color:#F15F5F">아이즈원</a></strong>은 프로듀스48이라는 프로그램에서 뽑힌 상위 12명으로 만들어진 그룹이고 데뷔일은 2018년 10월 29일이다</div>
     </div>
 
-<p><div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://collective-monlogue.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
 </body>
-
-<input type="checkbox">
