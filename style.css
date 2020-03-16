@@ -7,15 +7,16 @@ a {
   color:black;
   text-decoration: none;
 }
-h1 {
+h1 {font-family: 'Black Han Sans', sans-serif;
   font-size:50px;
   text-align: center;
-  border-bottom:3px solid black;
+  border-bottom:3px solid #8D7171;
   margin:0; padding: 15px
 }
-ol {
-  border-right:2px solid black;
-  width:150px;
+ol {font-family:'S-CoreDream-3Light';
+font-size: 20px; font-weight: 400;
+  border-right:2px;
+  width:200px;
   margin-top:0
   padding:10px;}
 
@@ -24,10 +25,16 @@ ol {
 }
 #grid ol{padding-left: 20px}
 
-#grid #article{padding-left: 0px}
+#grid #article{padding-left: 40px;font-family:'S-CoreDream-3Light';}
 @media(max-width:900px)
   {
   #grid{display: block;}
   ol {border-right:none}
   }
-#font1{font-family: 'Black Han Sans', sans-serif;}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('S-CoreDream-3Light.eot?#iefix') format('embedded-opentype'),  url('S-CoreDream-3Light.otf')  format('opentype'),
+  	     url('S-CoreDream-3Light.woff') format('woff'), url('S-CoreDream-3Light.ttf')  format('truetype'), url('S-CoreDream-3Light.svg#S-CoreDream-3Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
